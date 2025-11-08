@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Marketing IA & AR - Servicios</title>
+  <meta name="description" content="Servicios de marketing con IA y Realidad Aumentada, generación de catálogos y listas de productos." />
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- Favicon opcional -->
+  <link rel="icon" href="images/favicon.png" />
+</head>
+<body>
+  <!-- Encabezado -->
+  <header class="site-header" aria-label="Encabezado principal">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="logo-text">Marketing IA & AR</span>
+      </div>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero" aria-label="Encabezado principal">
+    <div class="container hero-content">
+      <h1>Marketing impulsado por IA y Realidad Aumentada</h1>
+      <p>Generación de catálogos, listas de productos y presentaciones para ventas modernas.</p>
+      <a class="cta" href="#servicios">Conoce nuestros servicios</a>
+    </div>
+  </section>
+
+  <!-- Nosotros -->
+  <section id="nosotros" class="section" aria-labelledby="nosotros-titulo">
+    <div class="container">
+      <h2 id="nosotros-titulo" class="section-title">Nosotros</h2>
+      <div class="intro">
+        <img src="images/nosotros.jpg" alt="Equipo de marketing trabajando" />
+        <p>Somos una agencia de marketing digital especializada en soluciones IA y presentaciones con AR. Ayudamos a empresas a innovar en sus catálogos, propuestas y presentaciones con experiencias inmersivas y contenido generado por IA.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="section" aria-labelledby="servicios-titulo">
+    <div class="container">
+      <h2 id="servicios-titulo" class="section-title">Servicios</h2>
+      <div class="cards">
+        <article class="card">
+          <img src="images/servicios.jpg" alt="Presentaciones con Realidad Aumentada" />
+          <h3>Presentaciones con Realidad Aumentada</h3>
+          <p>Experiencias inmersivas para clientes usando AR en dispositivos móviles. Integración con catálogos dinámicos y presentaciones interactivas.</p>
+        </article>
+        <article class="card">
+          <img src="images/IA_presentaciones.jpg" alt="IA para contenido y presentaciones" />
+          <h3>IA para Contenido y Presentaciones</h3>
+          <p>Generación automática de textos, imágenes y visuales para maquetación de propuestas y decks.</p>
+        </article>
+        <article class="card">
+          <img src="images/IA_catalogos.jpg" alt="Catálogos Generados por IA" />
+          <h3>Catálogos Generados por IA</h3>
+          <p>Catalogación inteligente, variaciones de producto, precios dinámicos y descripciones optimizadas para SEO.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Catálogo -->
+  <section id="catalogo" class="section" aria-labelledby="catalogo-titulo">
+    <div class="container">
+      <h2 id="catalogo-titulo" class="section-title">Catálogo</h2>
+      <p class="lead">Catálogo generado automáticamente a partir de tu base de datos y/o IA, con vistas web y exportaciones para impresión.</p>
+      <div class="catalog-preview">
+        <img src="images/catalogo.jpg" alt="Vista previa de catálogo generado" />
+        <div class="catalog-details">
+          <ul>
+            <li>Variantes por segmento</li>
+            <li>Imágenes optimizadas y descripciones IA</li>
+            <li>Formatos PDF, web e impresión</li>
+          </ul>
+          <a class="btn-ghost" href="#contacto">Solicitar demostración</a>
+        </div>
+      </div>
+      <!-- Demo IA – texto de muestra -->
+      <div class="demo-ia" aria-label="Demostración IA de descripciones">
+        <h3>Ejemplo de descripciones generadas por IA</h3>
+        <p>Producto A: "Cámara 4K con HDR y estabilización óptica. Ideal para contenidos de alto impacto en redes y presentaciones corporativas."</p>
+        <p>Producto B: "Auriculares con cancelación de ruido y sonido envolvente, perfectos para llamadas y presentaciones en equipo."</p>
+        <a class="btn-primary" href="#contacto">Solicitar catálogo de muestra</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="section" aria-labelledby="contacto-titulo">
+    <div class="container">
+      <h2 id="contacto-titulo" class="section-title">Contacto</h2>
+      <p>¿Listo para empezar? Contáctanos y te mostramos una demo personalizada.</p>
+      <form action="#" method="post" class="contact-form" onsubmit="event.preventDefault(); alert('Gracias, nos pondremos en contacto contigo pronto.');">
+        <div class="form-row">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required />
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-row">
+          <label for="empresa">Empresa</label>
+          <input type="text" id="empresa" name="empresa" />
+        </div>
+        <div class="form-row">
+          <label for="interes">Interés</label>
+          <select id="interes" name="interes" required>
+            <option value="" disabled selected>Seleccione</option>
+            <option value="demo_ar">Demo AR</option>
+            <option value="catalogo_ia">Catálogo IA</option>
+            <option value="presupuesto">Presupuesto</option>
+            <option value="otros">Otros</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn-primary">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>&copy; 2025 Marketing IA & AR. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="scripts/main.js"></script>
+</body>
+</html>
